@@ -1,5 +1,5 @@
 ======================
-Enter Name Templates
+Enter Name Template
 ======================
 
 Description
