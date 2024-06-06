@@ -1,0 +1,3 @@
+sphinx==3.7.3
+otree==5.10.4
+MarkupSafe==1.1.1
