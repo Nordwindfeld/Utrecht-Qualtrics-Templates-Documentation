@@ -4,27 +4,45 @@
 Embedded Data fields - Save Customized Data
 =============================================
 
-Embedded Data Fields are user-defined data fields that can store user-defined values.
-Here is how to define them yourself.
+Explanation of Predefined Variables in Qualtrics
+==================================================
+When using Embedded Data fields in Qualtrics, you often need to reference these variables in your survey questions or logic.
+To reference an Embedded Data field, you use a specific syntax that tells Qualtrics to substitute the variable with its value.
+This syntax involves placing the variable name within a specific format, ensuring Qualtrics recognizes and replaces it correctly during the survey.
 
-1. In the left sidebar of the survey in Qualtrics, there is a menu with several items.
-The second item is 'Survey Flow'.
+Steps to Define Embedded Data Fields
+==========================
+Embedded Data Fields are user-defined data fields that can store custom values for each survey respondent.
+These fields can be used throughout the survey to tailor questions or logic based on previously collected data.
 
-.. image:: docs/_static/1.EnterNamePicture1.png
+1. Navigate to Survey Flow: In the left sidebar of the Qualtrics survey editor, click on the second item, 'Survey Flow'.
+
+.. image:: pythonProject/docs/_static/1.EnterNamePicture1.png
   :width: 400
 
-2. Select this and choose your question in the menu where you want to add the Embedded Data Fields.
-3. Click 'Add Below' for this question. A window with several options will open.
+2. Select Question: Choose the question in the Survey Flow where you want to add the Embedded Data Fields.
+3. Add Embedded Data: Click 'Add Below' for this question. A window with several options will open.
 
-.. image:: docs/_static/1.EnterNamePicture2.png
+.. image:: pythonProject/docs/_static/1.EnterNamePicture2.png
   :width: 400
 
-4. Now enter the name of your variables. In our example, we call them 'nameField' and append the numbers 1-20, so we can automatically assign them with a JavaScript code.
+4. Name Your Variables: Enter the names of your variables. In our example, we use 'nameField' and append numbers 1-20, allowing them to be automatically assigned with JavaScript code.
 
-.. image:: docs/_static/1.EnterNamePicture3.png
+.. image:: pythonProject/docs/_static/1.EnterNamePicture3.png
   :width: 400
 
-These user-defined variables can now be used in other questions.
+Once defined, these user-defined variables can be used in other questions or parts of your survey.
 
-.. image:: docs/_static/1.EnterNamePicture4.png
+.. image:: pythonProject/docs/_static/1.EnterNamePicture4.png
   :width: 400
+
+Referencing Embedded Data Fields
+=====================================
+To use the value of an Embedded Data field within a survey question or logic, you must use the specific syntax ${e://Field/YourVariableName}.
+This syntax ensures Qualtrics understands that it needs to substitute the placeholder with the actual value stored in the Embedded Data field.
+
+Example
+____________
+- Suppose you have an Embedded Data field named CostumeValue.
+- To use this field in a question, you would write ${e://Field/CostumeValue}.
+- During the survey, Qualtrics will replace ${e://Field/CostumeValue} with the actual value of CostumeValue for each respondent.

@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'qualtrics-templates-university-Utrecht'
+project = 'Qualtrics-Templates-University-Utrecht'
 copyright = '2024, Raphael Hürler'
 author = 'Raphael Hürler'
 
