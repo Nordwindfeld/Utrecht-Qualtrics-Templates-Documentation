@@ -15,13 +15,13 @@ ___________________________
 The Rich Content Editor in Qualtrics allows you to format text, add images, and create tables using a graphical interface without writing any HTML code.
 For our template, it is quite useful as it also allows you to edit RAW HTML and CSS within the editor, and the visual result is immediately displayed in the editor.
 
-.. image:: pythonProject/docs/_static/HTMLPicture1.png
-  :width: 400
+.. image:: _static/HTMLPicture1.png
+  :width: 800
 
 By clicking on the 'Source' button, which is located in the top row of the editor, you can edit the HTML and CSS code directly.
 
-.. image:: pythonProject/docs/_static/HTMLPicture2.png
-  :width: 400
+.. image:: _static/HTMLPicture2.png
+  :width: 800
 
 CSS in Qualtrics
 ========================

@@ -17,24 +17,24 @@ These fields can be used throughout the survey to tailor questions or logic base
 
 1. Navigate to Survey Flow: In the left sidebar of the Qualtrics survey editor, click on the second item, 'Survey Flow'.
 
-.. image:: pythonProject/docs/_static/1.EnterNamePicture1.png
-  :width: 400
+.. image:: _static/1.EnterNamePicture1.png
+  :width: 800
 
 2. Select Question: Choose the question in the Survey Flow where you want to add the Embedded Data Fields.
 3. Add Embedded Data: Click 'Add Below' for this question. A window with several options will open.
 
 .. image:: _static/1.EnterNamePicture2.png
-  :width: 400
+  :width: 800
 
 4. Name Your Variables: Enter the names of your variables. In our example, we use 'nameField' and append numbers 1-20, allowing them to be automatically assigned with JavaScript code.
 
-.. image:: pythonProject/docs/_static/1.EnterNamePicture3.png
-  :width: 400
+.. image:: _static/1.EnterNamePicture3.png
+  :width: 800
 
 Once defined, these user-defined variables can be used in other questions or parts of your survey.
 
-.. image:: pythonProject/docs/_static/1.EnterNamePicture4.png
-  :width: 400
+.. image:: _static/1.EnterNamePicture4.png
+  :width: 800
 
 Referencing Embedded Data Fields
 =====================================

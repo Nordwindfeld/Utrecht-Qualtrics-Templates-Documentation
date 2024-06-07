@@ -8,8 +8,8 @@ The 'Enter Name' Template in Qualtrics allows participants to enter up to 20 nam
 These names are saved in embedded data fields for later use in the project. The template visually displays the entered names in yellow boxes and updates a counter to show how many names have been entered.
 The "Continue" button only appears once all 20 names have been entered.
 
-.. image:: pythonProject/docs/_static/1.EnterNamePicture5.png
-  :width: 400
+.. image:: _static/1.EnterNamePicture5.png
+  :width: 800
 
 Quick Overview
 ------------------
