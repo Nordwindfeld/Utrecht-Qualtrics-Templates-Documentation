@@ -23,7 +23,7 @@ These fields can be used throughout the survey to tailor questions or logic base
 2. Select Question: Choose the question in the Survey Flow where you want to add the Embedded Data Fields.
 3. Add Embedded Data: Click 'Add Below' for this question. A window with several options will open.
 
-.. image:: docs/_static/1.EnterNamePicture2.png
+.. image:: _static/1.EnterNamePicture2.png
   :width: 400
 
 4. Name Your Variables: Enter the names of your variables. In our example, we use 'nameField' and append numbers 1-20, allowing them to be automatically assigned with JavaScript code.
