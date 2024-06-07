@@ -5,5 +5,5 @@ Basics
    :maxdepth: 1
 
    HTMLinQualtrics
-   JavaScriptinQualtrics
+   JavaScriptInQualtrics
    EmbeddedDataFields

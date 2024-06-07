@@ -8,4 +8,4 @@ There are several fundamental points that need to be understood in order to crea
    :maxdepth: 2
 
    basics/index
-   Templates/index
+   templates/index
