@@ -37,12 +37,12 @@ Hier können die Daten gespeichert und später wieder aufgerufen werden.
 
 JavaScript
 ====================
-Das Template nutzt JavaScript, um die Namen zu verwalten und die Benutzeroberfläche zu aktualisieren.
-Hier sind die wichtigsten Funktionen:
+The template uses JavaScript to manage names and update the user interface.
+Here are the key functions:
 
-Validierung der Eingabe
+Input validation
 _________________________
-Hier wird die Eingabe der Teilnehmenden überprüft, ob diese nur Buchstaben und Umlaute beinhalten.
+Here, the input of the participants is checked to ensure it contains only letters and umlauts.
 
 .. code-block:: console
 
@@ -55,9 +55,9 @@ Hier wird die Eingabe der Teilnehmenden überprüft, ob diese nur Buchstaben und
         }
     }
 
-Hinzufügen eines Namens:
+Adding a name:
 _______________________________
-Das ist der Wichtige Bereich, in welcher die Namen nach drücken der Enter Taste oder durch drücken des Knopfes, hinzugefügt werden.
+This is the crucial area where names are added after pressing the Enter key or by pressing the button.
 
 .. code-block:: console
 
@@ -83,11 +83,11 @@ Das ist der Wichtige Bereich, in welcher die Namen nach drücken der Enter Taste
 
 
 
-Für die visuelle Darstellung wird zum einen die DisplayNames() Funktion aufgerufen, welche die Namen unter dem Eingabefeld darstellt und zum anderen die updateNameCount() Funktion, welche den Zähler aktualisiert, damit die Teilnehmden wissen, wie viele Namen diese noch eingeben müssen.
+For the visual representation, the `DisplayNames()` function is called to display the names below the input field, and the `updateNameCount()` function is called to update the counter so that participants know how many names they still need to enter.
 
 Display Names
 ____________________________
-Das ist die Funktion, welche dafür sorgt, dass die Namen angezeigt werden + dem "x", welches den teilnehmenden anzeigt, dass diese den Namen entfernen können.
+This is the function responsible for displaying the names along with the "x" icon, indicating to participants that they can remove the names.
 
 .. code-block:: console
 
@@ -111,7 +111,7 @@ Das ist die Funktion, welche dafür sorgt, dass die Namen angezeigt werden + dem
 
 Update Counter
 _________________________________
-Diese Funktion aktualisiert den Counter, welcher anzeigt, wie viele Namen bereits eingegeben worden sind.
+This function updates the counter, indicating how many names have been entered.
 
 .. code-block:: console
 
@@ -126,8 +126,8 @@ Diese Funktion aktualisiert den Counter, welcher anzeigt, wie viele Namen bereit
 
 Save the name Values
 ____________________________
-Diese Funktion speichert die Namen im Backend.
-Wichtig dafür ist, dass im SurveyFlow für diese Frage, :ref:`embedded-data-fields` definiert worden sind, damit diese Daten wirklich gespeichert werden können und auch später wieder verwendet werden können.
+This function saves the names in the backend.
+It's important that in the SurveyFlow for this question, :ref:`embedded-data-fields` have been defined so that this data can be truly saved and can be used later on.
 
 .. code-block:: console
 
