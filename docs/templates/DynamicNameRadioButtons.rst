@@ -9,9 +9,6 @@ Dynamic Name Radio Buttons
 
 Description
 ------------------
-Here is the translation of the provided text into English:
-
----
 
 In this template, one of the 20 names is displayed at the top, and buttons with answer options are shown at the bottom.
 When an answer is selected, the button turns green for one second, and the circle with the name fades out.

@@ -35,7 +35,7 @@ Important
 ====================
 Since the entire code is completely self-created and doesn't always use the functions of Qualtrics one hundred percent, you also need to define the data you want to save yourself.
 For this, we use :ref:`embedded-data-fields`.
-Hier können die Daten gespeichert und später wieder aufgerufen werden.
+Here, the data can be saved and recalled later.
 
 JavaScript
 ====================
