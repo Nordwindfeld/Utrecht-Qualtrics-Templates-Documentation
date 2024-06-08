@@ -1,7 +1,7 @@
 .. _embedded-data-fields:
 
 =============================================
-Embedded Data fields - Save Customized Data
+Embedded Data fields
 =============================================
 
 Explanation of Predefined Variables in Qualtrics
