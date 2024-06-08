@@ -11,7 +11,7 @@ Layout
 The layout plays a fundamental role in design and saves a lot of CSS code that one would otherwise have to write.
 For this project, the decision was made to use the 'Modern' layout.
 
-.. image:: _static/LookAndFeelImage.png
+.. image:: _static/LookAndFeelImage1.png
   :width: 800
 
 Style
