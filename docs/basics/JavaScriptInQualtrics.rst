@@ -3,7 +3,7 @@
 =============================================
 JavaScript in Qualtrics
 =============================================
-In addition to the :ref:HTML in Qualtrics, there is also JavaScript, which can make all the HTML elements functional. Each question has an extra window for this purpose.
+In addition to the :ref:`HTMLinQualtrics`, there is also JavaScript, which can make all the HTML elements functional. Each question has an extra window for this purpose.
 
 .. image:: _static/JavaScriptImage1.png
   :width: 800
